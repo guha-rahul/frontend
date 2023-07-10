@@ -1,8 +1,12 @@
 import React from 'react'
-
+import Navbar from './Navbar'
 const OpenAi = () => {
   return (
-    <div className='text white'>OpenAi</div>
+    <div>
+      <div>
+        <Navbar />
+      </div>
+    </div>
   )
 }
 
