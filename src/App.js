@@ -21,7 +21,7 @@ function App() {
       <Routes>
 
       <Route path="/" element={<Homepage />} />
-        <Route path="/Drawingpad" element={<OpenAi />} />
+        <Route path="/Generate" element={<OpenAi />} />
       </Routes>
       </BrowserRouter>
         
